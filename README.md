@@ -717,3 +717,19 @@ assert(found && "Car could not be found in database");
 
 // must be a constant expression
 static_assert(sizeof(long) == 8, "long must be 8 bytes"); // checked at compile-time
+```
+
+## Explicit type conversion (casting) and static_cast
+
+```cpp
+double d { (double)x / y }; // C-style cast (avoid)
+static_cast<int>(c); // static cast (compile-time type checking)
+```
+
+## Typedefs and type aliases
+
+```cpp
+using Distance = double; // type alias
+typedef long Miles; // older way of creating type aliases
+```
+
