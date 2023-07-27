@@ -1,4 +1,4 @@
-# learn-cpp
+# random-cpp
 
 ## Variable assignment and initialization
 
